@@ -12,7 +12,6 @@ bhaskaraZero = bhaskaraMais + bhaskaraMenos
 if delta < 0:
     print("Não existem raizes reais")
 elif delta == 0:
-    print("Há uma única raiz real de valor: x=", int(bhaskaraZero))
+    print("Há uma única raiz real de valor: x=", bhaskaraZero)
 elif delta > 0:
-    print("Existem duas raízes reais de valores: x1=",
-          int(bhaskaraMais), "e x2=", int(bhaskaraMenos))
+    print("Existem duas raízes reais de valores: x1=", bhaskaraMais, "e x2=", bhaskaraMenos)
