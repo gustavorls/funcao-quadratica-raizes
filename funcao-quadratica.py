@@ -1,8 +1,8 @@
 import cmath
 
-a = int(input("Insira o valor de a: "))
-b = int(input("Insira o valor de b: "))
-c = int(input("Insira o valor de c: "))
+a = float(input("Insira o valor de a: "))
+b = float(input("Insira o valor de b: "))
+c = float(input("Insira o valor de c: "))
 
 delta = (b ** 2) - (4 * a * c)
 bhaskaraMais = (-b + cmath.sqrt(delta)) / (2 * a)
